@@ -1,0 +1,6 @@
+{
+  "name": "Lively Wallpaper",
+  "description": "Set local videos as high-performance custom live wallpapers with adjust-to-fit scaling controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

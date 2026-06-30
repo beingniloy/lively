@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Red Circle (Top) -->
+    <path
+        android:fillColor="#FF3B30"
+        android:fillAlpha="0.75"
+        android:pathData="M 54,20 a 20,20 0 1,0 0,40 a 20,20 0 1,0 0,-40" />
+
+    <!-- Purple Circle (Right) -->
+    <path
+        android:fillColor="#AF52DE"
+        android:fillAlpha="0.75"
+        android:pathData="M 67.31,29.67 a 20,20 0 1,0 0,40 a 20,20 0 1,0 0,-40" />
+
+    <!-- Blue Circle (Bottom Right) -->
+    <path
+        android:fillColor="#007AFF"
+        android:fillAlpha="0.75"
+        android:pathData="M 62.23,45.33 a 20,20 0 1,0 0,40 a 20,20 0 1,0 0,-40" />
+
+    <!-- Green Circle (Bottom Left) -->
+    <path
+        android:fillColor="#34C759"
+        android:fillAlpha="0.75"
+        android:pathData="M 45.77,45.33 a 20,20 0 1,0 0,40 a 20,20 0 1,0 0,-40" />
+
+    <!-- Orange/Yellow Circle (Left) -->
+    <path
+        android:fillColor="#FF9500"
+        android:fillAlpha="0.75"
+        android:pathData="M 40.69,29.67 a 20,20 0 1,0 0,40 a 20,20 0 1,0 0,-40" />
+
+</vector>
