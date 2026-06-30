@@ -1,5 +1,6 @@
 package com.beingniloy.lively.ui.components
 
+import androidx.annotation.OptIn
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
@@ -14,6 +15,7 @@ import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 
+@OptIn(androidx.media3.common.util.UnstableApi::class)
 @Composable
 fun VideoPlayerPreview(
     videoPath: String,
