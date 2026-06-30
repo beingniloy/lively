@@ -24,6 +24,9 @@ jobs:
           gradle-version: '9.3.1'
           validate-wrappers: false
 
+      - name: Decode Debug Keystore
+        run: base64 -d debug.keystore.base64 > debug.keystore
+
       - name: Run Lint
         run: gradle lintDebug
 
